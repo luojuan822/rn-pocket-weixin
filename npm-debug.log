@@ -1,0 +1,121 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.5.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'git+https://github.com/luojuan822/rn-pocket-weixin.git' ]
+2 info using npm@3.10.3
+3 info using node@v6.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData git+https://github.com/luojuan822/rn-pocket-weixin.git
+8 silly fetchOtherPackageData git+https://github.com/luojuan822/rn-pocket-weixin.git
+9 silly cache add args [ 'git+https://github.com/luojuan822/rn-pocket-weixin.git',
+9 silly cache add   null ]
+10 verbose cache add spec git+https://github.com/luojuan822/rn-pocket-weixin.git
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'git+https://github.com/luojuan822/rn-pocket-weixin.git',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'git+https://github.com/luojuan822/rn-pocket-weixin.git',
+11 silly cache add   spec: 'git+https://github.com/luojuan822/rn-pocket-weixin.git',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:luojuan822/rn-pocket-weixin.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/luojuan822/rn-pocket-weixin.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/luojuan822/rn-pocket-weixin.git',
+11 silly cache add      gitUrl: 'git://github.com/luojuan822/rn-pocket-weixin.git',
+11 silly cache add      shortcut: 'github:luojuan822/rn-pocket-weixin',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/luojuan822/rn-pocket-weixin/master/package.json' } }
+12 verbose addRemoteGit caching git+https://github.com/luojuan822/rn-pocket-weixin.git
+13 verbose addRemoteGit git+https://github.com/luojuan822/rn-pocket-weixin.git is a repository hosted by github
+14 silly tryClone cloning git+https://github.com/luojuan822/rn-pocket-weixin.git via git+https://github.com/luojuan822/rn-pocket-weixin.git
+15 verbose tryClone git-https-github-com-luojuan822-rn-pocket-weixin-git-423fa8b2 not in flight; caching
+16 verbose correctMkdir /Users/jessica/.npm/_git-remotes correctMkdir not in flight; initializing
+17 info git [ 'config', '--get', 'remote.origin.url' ]
+18 silly validateExistingRemote git+https://github.com/luojuan822/rn-pocket-weixin.git remote.origin.url: https://github.com/luojuan822/rn-pocket-weixin.git
+19 verbose validateExistingRemote git+https://github.com/luojuan822/rn-pocket-weixin.git is updating existing cached remote /Users/jessica/.npm/_git-remotes/git-https-github-com-luojuan822-rn-pocket-weixin-git-423fa8b2
+20 info git [ 'fetch', '-a', 'origin' ]
+21 verbose updateRemote git fetch -a origin (https://github.com/luojuan822/rn-pocket-weixin.git)
+22 verbose correctMkdir /Users/jessica/.npm/_git-remotes correctMkdir not in flight; initializing
+23 verbose setPermissions git+https://github.com/luojuan822/rn-pocket-weixin.git set permissions on /Users/jessica/.npm/_git-remotes/git-https-github-com-luojuan822-rn-pocket-weixin-git-423fa8b2
+24 verbose resolveHead git+https://github.com/luojuan822/rn-pocket-weixin.git original treeish: master
+25 info git [ 'rev-list', '-n1', 'master' ]
+26 silly resolveHead git+https://github.com/luojuan822/rn-pocket-weixin.git resolved treeish: d2ff51754c6a5e5dab7d811b7be3fdd3173642fa
+27 verbose resolveHead git+https://github.com/luojuan822/rn-pocket-weixin.git resolved Git URL: git+https://github.com/luojuan822/rn-pocket-weixin.git#d2ff51754c6a5e5dab7d811b7be3fdd3173642fa
+28 silly resolveHead Git working directory: /var/folders/_j/3wzsgpxd67dg7zszb_1zcm380000gn/T/npm-1552-535316c4/git-cache-df1da5b2/d2ff51754c6a5e5dab7d811b7be3fdd3173642fa
+29 info git [ 'clone',
+29 info git   '/Users/jessica/.npm/_git-remotes/git-https-github-com-luojuan822-rn-pocket-weixin-git-423fa8b2',
+29 info git   '/var/folders/_j/3wzsgpxd67dg7zszb_1zcm380000gn/T/npm-1552-535316c4/git-cache-df1da5b2/d2ff51754c6a5e5dab7d811b7be3fdd3173642fa' ]
+30 verbose cloneResolved git+https://github.com/luojuan822/rn-pocket-weixin.git clone Cloning into '/var/folders/_j/3wzsgpxd67dg7zszb_1zcm380000gn/T/npm-1552-535316c4/git-cache-df1da5b2/d2ff51754c6a5e5dab7d811b7be3fdd3173642fa'...
+30 verbose cloneResolved done.
+31 info git [ 'checkout', 'd2ff51754c6a5e5dab7d811b7be3fdd3173642fa' ]
+32 verbose checkoutTreeish git+https://github.com/luojuan822/rn-pocket-weixin.git checkout Note: checking out 'd2ff51754c6a5e5dab7d811b7be3fdd3173642fa'.
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+32 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+32 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+32 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish   git checkout -b <new-branch-name>
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish HEAD is now at d2ff517... init
+33 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+34 error git submodule -q update --init --recursive: fatal: No url found for submodule path 'ios/WeixinManager' in .gitmodules
+35 silly fetchPackageMetaData Error: Command failed: git submodule -q update --init --recursive
+35 silly fetchPackageMetaData fatal: No url found for submodule path 'ios/WeixinManager' in .gitmodules
+35 silly fetchPackageMetaData
+35 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:206:12)
+35 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+35 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+35 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:877:16)
+35 silly fetchPackageMetaData     at Socket.<anonymous> (internal/child_process.js:334:11)
+35 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+35 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+35 silly fetchPackageMetaData     at Pipe._handle.close [as _onclose] (net.js:493:12)
+35 silly fetchPackageMetaData  error for git+https://github.com/luojuan822/rn-pocket-weixin.git { Error: Command failed: git submodule -q update --init --recursive
+35 silly fetchPackageMetaData fatal: No url found for submodule path 'ios/WeixinManager' in .gitmodules
+35 silly fetchPackageMetaData
+35 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:206:12)
+35 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+35 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+35 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:877:16)
+35 silly fetchPackageMetaData     at Socket.<anonymous> (internal/child_process.js:334:11)
+35 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+35 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+35 silly fetchPackageMetaData     at Pipe._handle.close [as _onclose] (net.js:493:12)
+35 silly fetchPackageMetaData   killed: false,
+35 silly fetchPackageMetaData   code: 128,
+35 silly fetchPackageMetaData   signal: null,
+35 silly fetchPackageMetaData   cmd: 'git submodule -q update --init --recursive' }
+36 silly rollbackFailedOptional Starting
+37 silly rollbackFailedOptional Finishing
+38 silly runTopLevelLifecycles Starting
+39 silly runTopLevelLifecycles Finishing
+40 silly install printInstalled
+41 verbose stack Error: Command failed: git submodule -q update --init --recursive
+41 verbose stack fatal: No url found for submodule path 'ios/WeixinManager' in .gitmodules
+41 verbose stack
+41 verbose stack     at ChildProcess.exithandler (child_process.js:206:12)
+41 verbose stack     at emitTwo (events.js:106:13)
+41 verbose stack     at ChildProcess.emit (events.js:191:7)
+41 verbose stack     at maybeClose (internal/child_process.js:877:16)
+41 verbose stack     at Socket.<anonymous> (internal/child_process.js:334:11)
+41 verbose stack     at emitOne (events.js:96:13)
+41 verbose stack     at Socket.emit (events.js:188:7)
+41 verbose stack     at Pipe._handle.close [as _onclose] (net.js:493:12)
+42 verbose cwd /Users/jessica/Desktop/rn-pocket-weixin
+43 error Darwin 16.6.0
+44 error argv "/usr/local/Cellar/node/6.5.0/bin/node" "/usr/local/bin/npm" "install" "git+https://github.com/luojuan822/rn-pocket-weixin.git"
+45 error node v6.5.0
+46 error npm  v3.10.3
+47 error code 128
+48 error Command failed: git submodule -q update --init --recursive
+48 error fatal: No url found for submodule path 'ios/WeixinManager' in .gitmodules
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]
